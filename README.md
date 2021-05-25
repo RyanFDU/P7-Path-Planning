@@ -102,12 +102,12 @@ A really helpful resource for doing this project and creating smooth trajectorie
 
 ## Project Instructions and Rubric
 
-#### Overview
+### Overview
 ![img2]
 
 In an autonomous vehicle, path planning requires the cooperation of different layers. The diagram above provides an overview of six components which are involved in a given self-driving system: `Motion Control`, `Sensor Fusion`, `Localization`, `Prediction`, `Behaviour`, `Trajectory`.
 
-#### Trajectory planning
+### Trajectory planning
 
 There are many approaches to trajectory generation, and in this project we have opted for computing trajectories in a Frenet coordinate system.
 
@@ -116,7 +116,7 @@ There are many approaches to trajectory generation, and in this project we have 
 
 This is precisely what a Frenet coordinate system offers: in such a system we split our plane into a longitudinal and lateral axis, respectively denoted as S and D.
 
-#### Work steps
+### Work steps
 
 **1. Analyze the data from the sensor fusion and categorize other vehicles by lane.**
 
